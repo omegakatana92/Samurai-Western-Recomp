@@ -1,0 +1,46 @@
+# Commercial game assets and extracted executables
+*.iso
+*.ISO
+*.bin
+*.cue
+*.chd
+*.elf
+*.ELF
+SLES_*
+SLUS_*
+SCES_*
+SCUS_*
+*.PSS
+*.TRS
+VOLUME.DAT
+disc/
+roms/
+
+# Personal memory cards and states
+*.ps2
+*.mcd
+*.psu
+*.max
+*.cbs
+*.state
+*.sav
+*.srm
+saves/
+memcards/
+
+# Local builds, caches, generated files
+build/
+generated/
+CMakeFiles/
+CMakeCache.txt
+.ninja_*
+*.o
+*.a
+*.so
+*.log
+*.AppImage
+
+# Environment credentials
+.env
+.env.*
+*.token
